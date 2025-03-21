@@ -17,7 +17,7 @@ struct DiceView: View {
                     dots = Int.random(in: 1...6)
                 }
             }
-            .font(.title3)
+            .font(.title2)
             .background(Color.black)
             .buttonStyle(.bordered)
         }

@@ -17,7 +17,7 @@ struct ContentView: View {
                 }
             }
             
-            HStack {
+            HStack(spacing: 15) {
                 Button("Add Dice", systemImage: "plus.circle.fill") {
                     withAnimation {
                         diceNum += 1
